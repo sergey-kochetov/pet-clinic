@@ -5,9 +5,7 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class Person {
-    private Long id;
-
+public class Person extends BaseEntity {
     private String firstName;
     private String lastName;
 
